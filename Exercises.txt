@@ -46,7 +46,7 @@ DOM Manipulation Exercises
 	}
 	| OR |
 	const list = document.querySelectorAll("ol li");
-	for(let i=0;i!= list.length;i++)
+	for(let i=0;i!=list.length;i++)
 		list[i].style.backgroundColor="green";
 
 12. Remove the div with a class of footer
